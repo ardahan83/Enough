@@ -2,7 +2,7 @@ from colorama import Fore, Style
 from time import sleep
 from os import system
 from requests import get
-r = get("https://raw.githubusercontent.com/tingirifistik/Enough/main/sms.py").text
+r = get("https://raw.githubusercontent.com/ardahan83/Enough/main/sms.py").text
 with open("sms.py", "r", encoding="utf-8") as f:
     read = f.read()
 if read == r:
@@ -12,7 +12,7 @@ else:
     with open("sms.py", "w", encoding="utf-8") as f:
         f.write(r)
 from sms import SendSms
-r = get("https://raw.githubusercontent.com/tingirifistik/Enough/main/call.py").text
+r = get("https://raw.githubusercontent.com/ardahan83/Enough/main/call.py").text
 with open("call.py", "r", encoding="utf-8") as f:
     read = f.read()
 if read == r:
@@ -48,7 +48,7 @@ while 1:
                                __/ |      
                               |___/      
     Sms: {}                         
-    Ara: {}              {}by {}@tingirifistik\n  
+    Ara: {}              {}by {}@ardahan83\n  
     """.format(Fore.LIGHTCYAN_EX, len(servisler_sms), len(servisler_call), Style.RESET_ALL, Fore.LIGHTRED_EX))
     try:
         menu = (input(Fore.LIGHTMAGENTA_EX + " 1- SMS Gönder\n 2- Ara\n 3- Katkıda Bulunanlar\n 4- Çıkış\n\n" + Fore.LIGHTYELLOW_EX + " Seçim: "))
@@ -197,7 +197,7 @@ while 1:
         input()
     elif menu == 3:
         system("cls||clear")
-        print(Fore.LIGHTWHITE_EX + " tingirifistik\n Bora185")
+        print(Fore.LIGHTWHITE_EX + " ardahan83\n ")
         sleep(12)
     elif menu == 4:
         system("cls||clear")

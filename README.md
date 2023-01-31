@@ -1,7 +1,7 @@
 # Enough
-[![Github Stars](https://img.shields.io/github/stars/tingirifistik/Enough)]()
-[![Github Forks](https://img.shields.io/github/forks/tingirifistik/Enough)]() 
-[![Hits](https://hits.sh/github.com/tingirifistik/Enough.svg?label=views&color=007ec6)](https://hits.sh/github.com/tingirifistik/Enough/)
+[![Github Stars](https://img.shields.io/github/stars/ardahan83/Enough)]()
+[![Github Forks](https://img.shields.io/github/forks/ardahan83/Enough)]() 
+[![Hits](https://hits.sh/github.com/ardahan83/Enough.svg?label=views&color=007ec6)](https://hits.sh/github.com/ardahan83/Enough/)
 
 <img src=https://user-images.githubusercontent.com/51286195/212484738-6abd87d1-d819-429f-845f-9afa83ff1cdb.PNG height="200px" width="400px"/>
 <img src=https://user-images.githubusercontent.com/51286195/209442235-7069b8e7-b3f3-4b70-82cb-a86014836be0.png height="200px" width="400px"/>
@@ -9,12 +9,12 @@
 
 <h2>Replit</h2>
 
-https://replit.com/@tingirifistik/Enough
+https://replit.com/@ardahan83/Enough
 
 <h2>Kurulum</h2>
 
 ```console
-git clone https://github.com/tingirifistik/Enough.git
+git clone https://github.com/ardahan83/Enough.git
 cd Enough
 pip3 install -r requirements.txt
 python3 enough.py
@@ -22,7 +22,7 @@ python3 enough.py
 
 <h2>Telegram Bot'u ile Kullanmak İçin</h2>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/tingirifistik/Enough)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ardahan83/Enough)
 
 <h2>Discord</h2>
 
@@ -48,4 +48,4 @@ Bot'un çalışabilmesi için 'Privileged Gateway Intents' seçeneklerinin hepsi
 4- Bu id'yi *discord-selfbot-enough.py*'de *chat_id* kısmına yazınız. (int olarak)<br><br>
 **Not:** Eğer bot'u Discord sunucusunda kullanacaksanız, *channels*'dan sonra gelen, taksim ile ayrılmış iki sayıdan ikincisi sohbet id'nizdir.
 <br><br>
-<a href="https://www.buymeacoffee.com/tingirifistik" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+<a href="https://www.buymeacoffee.com/ardahan83" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
